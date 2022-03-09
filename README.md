@@ -1,11 +1,9 @@
-<b>Instructions for filter_LOVAlignment.py</b>
-=======================================
+<b><u>Instructions for filter_LOVAlignment.py</b></u>
 written by the incredible Angulion (andreas.moeglich@uni-bayreuth.de)
 used in Dietler et al. "Signal Transduction in Light-Oxygen-Voltage Receptors Lacking the Active-Site Glutamine" (2022)
 
 
-0. License
-----------
+<u>0. License</u>
 This program is free software; you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
 the Free Software Foundation; either version 3 of the License, or
@@ -21,19 +19,16 @@ along with this program; if not, write to the Free Software Foundation,
 Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301  USA
  
 
-1. Sytem Requirements
----------------------
+<u>1. Sytem Requirements</u>
 - requires python3 and packages re and Bio
 - tested with python 3.6.3, re 2.2.1 and Bio 1.77
 
 
-2. Installation Guide
----------------------
+<u>2. Installation Guide</u>
 Save this file to the same directory as the qblast XML file to be analyzed. (An example qblast file is included.)
 
 
-3. Demo & Instructions for Use
-------------------------------
+<u>3. Demo & Instructions for Use</u>
 3.1. Edit the python script in the bottom of the file according to your needs as follows:
 - QUERY_SEQUENCE: this is the reference sequence you want the entries in the XML file to compare to
 - POSITIONS_REQUIRED: enter the positions at which the entries must match the reference
