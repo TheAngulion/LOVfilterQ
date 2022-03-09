@@ -1,8 +1,9 @@
-<b><u>Instructions for filter_LOVAlignment.py</b></u>
+<b><u>Instructions for filter_LOVAlignment.py</b></u><br/>
 written by the incredible Angulion (andreas.moeglich@uni-bayreuth.de)
 used in Dietler et al. "Signal Transduction in Light-Oxygen-Voltage Receptors Lacking the Active-Site Glutamine" (2022)
 
 
+<p>
 <u>0. License</u><br/>
 This program is free software; you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
@@ -17,7 +18,8 @@ GNU General Public License for more details.
 You should have received a copy of the GNU General Public License
 along with this program; if not, write to the Free Software Foundation,
 Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301  USA
- 
+</p>
+
 
 <u>1. Sytem Requirements</u>
 - requires python3 and packages re and Bio
