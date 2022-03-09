@@ -1,5 +1,5 @@
 <b><u>Instructions for filter_LOVAlignment.py</b></u><br/>
-written by the incredible Angulion (andreas.moeglich@uni-bayreuth.de)
+written by the incredible Angulion (andreas.moeglich@uni-bayreuth.de)<br/>
 used in Dietler et al. "Signal Transduction in Light-Oxygen-Voltage Receptors Lacking the Active-Site Glutamine" (2022)
 
 
@@ -21,16 +21,21 @@ Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301  USA
 </p>
 
 
-<u>1. Sytem Requirements</u>
+<p>
+  <u>1. Sytem Requirements</u><br/>
 - requires python3 and packages re and Bio
 - tested with python 3.6.3, re 2.2.1 and Bio 1.77
+</p>
 
 
-<u>2. Installation Guide</u>
+<p>
+<u>2. Installation Guide</u><br/>
 Save this file to the same directory as the qblast XML file to be analyzed. (An example qblast file is included.)
+<p/>
 
 
-<u>3. Demo & Instructions for Use</u>
+<p>
+<u>3. Demo & Instructions for Use</u><br/>
 3.1. Edit the python script in the bottom of the file according to your needs as follows:
 - QUERY_SEQUENCE: this is the reference sequence you want the entries in the XML file to compare to
 - POSITIONS_REQUIRED: enter the positions at which the entries must match the reference
@@ -42,3 +47,4 @@ Save this file to the same directory as the qblast XML file to be analyzed. (An 
 3.2. Execute the python script using python3 (will not work with Python 2.7)
 
 3.3. A fasta sequence file with the specified name and contents should have been generated.
+<p/>
