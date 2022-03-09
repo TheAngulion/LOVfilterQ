@@ -3,7 +3,7 @@ written by the incredible Angulion (andreas.moeglich@uni-bayreuth.de)
 used in Dietler et al. "Signal Transduction in Light-Oxygen-Voltage Receptors Lacking the Active-Site Glutamine" (2022)
 
 
-<u>0. License</u>
+<u>0. License</u><br/>
 This program is free software; you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
 the Free Software Foundation; either version 3 of the License, or
