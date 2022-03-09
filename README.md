@@ -1,5 +1,5 @@
-#Instructions for filter_LOVAlignment.py
-#=======================================
+<b>Instructions for filter_LOVAlignment.py</b>
+=======================================
 written by the incredible Angulion (andreas.moeglich@uni-bayreuth.de)
 used in Dietler et al. "Signal Transduction in Light-Oxygen-Voltage Receptors Lacking the Active-Site Glutamine" (2022)
 
