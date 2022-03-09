@@ -25,12 +25,13 @@ Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301  USA
   <u>1. Sytem Requirements</u><br/>
 - requires python3 and packages re and Bio
 - tested with python 3.6.3, re 2.2.1 and Bio 1.77
+- non-standard hardware is not required
 </p>
 
 
 <p>
 <u>2. Installation Guide</u><br/>
-Save this file to the same directory as the qblast XML file to be analyzed. (An example qblast file is included.)
+Save this file to the same directory as the qblast XML file to be analyzed. (An example qblast file is included.) Beyond that, no dedicated installation is required.
 <p/>
 
 
@@ -44,7 +45,7 @@ Save this file to the same directory as the qblast XML file to be analyzed. (An 
 - QBLAST_RESULT_FILE: the qblast XML input file to be parsed
 - OUTPUT_FILE: the name of the fasta output file to which matching sequences are written
 
-3.2. Execute the python script using python3 (will not work with Python 2.7)
+3.2. Execute the python script using python3 (will not work with Python 2.7). Depending on cpu and input file size, this should take a few seconds at most.
 
 3.3. A fasta sequence file with the specified name and contents should have been generated.
 <p/>
